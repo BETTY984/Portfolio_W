@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/dbdc6a337d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+                
+            </nav>
+            <div class="header-text">
+                
+                <h1>Hi, I'm <span>Betel Fasika</span><br>from Ethiopia</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ---------------about----------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus eum perspiciatis voluptate officia, dolorum officiis impedit enim animi ea sapiente iste corporis, cupiditate pariatur aspernatur delectus dolor voluptas facilis doloribus.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contentes active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>App development</span><br>building Adroid/IOS apps</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contentes" id="experience">
+                        <ul>
+                            <li><span>2024</span><br>UI/UX Design Bookstore web for Web based project</li>
+                            <li><span>2024</span><br>Bookstore Web Development on ASTU</li>
+                            <li><span>2024</span><br>Music Player Mobile App Development on ASTU</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contentes" id="education">
+                        <ul>
+                            <li><span>2021 - current</span><br>Softaware Enginering at Adama science and technology</li>
+                            <li><span>2023</span><br>UI/UX designing on Udemy</li>
+                            <li><span>2023</span><br>Front-End web development from meta on Coursera</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!-- -----------------------services----------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero atque exercitationem, mollitia sit architecto quis, numquam enim blanditiis ex obcaecati aut provident illo perspiciatis illum repellat, eveniet commodi cupiditate dolor!</p>                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam, non placeat sit explicabo distinctio. A odio obcaecati eligendi, fugiat nisi expedita, optio, natus sint est voluptates temporibus quo sed.</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Development</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, error modi, aperiam tempore exercitationem voluptatum iusto deleniti perspiciatis commodi, consectetur magni voluptatem maiores vitae enim. Earum repudiandae quod consectetur explicabo?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ------------portfolio---------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work1.jpg" >
+                <div class="layer">
+                    <h3>UI/UX Design</h3>
+                    <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum deleniti sed fugiat quas optio odio quos illum pariatur quis voluptates vero porro, amet doloribus. Tempora fugiat accusantium iste recusandae enim.</P>
+                    <a target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work2.jpg" >
+                <div class="layer">
+                    <h3>Music player App</h3>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat consequatur veritatis, esse atque optio quia quae debitis, aliquid, laudantium modi cupiditate vitae quisquam! Laborum minima aliquam totam libero vel id.</P>
+                    <a ><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work3.jpg" >
+                <div class="layer">
+                    <h3>Bookstore Webesite</h3>
+                    <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi nisi ratione minus odit incidunt voluptatibus. Officia at dolorum officiis distinctio, harum blanditiis ipsam, consequatur alias dolore quae nam? Pariatur, tempore.</P>
+                    <a><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ----------------contact----------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>@betty_bf</p>
+                <p><i class="fa-solid fa-square-phone"></i>+251973582231</p>
+                <div class="social-icons">
+                    <a ><i class="fa-brands fa-facebook"></i></a>
+                    <a><i class="fa-solid fa-paper-plane"></i></a>
+                </div>
+                <a download class="btn btn2">Download CV</a>
+            </div>
+           
+            <div class="contact-right">
+                <form name="">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
